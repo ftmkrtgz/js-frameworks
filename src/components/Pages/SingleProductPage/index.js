@@ -26,9 +26,13 @@ function Product() {
       <div className="card mb-3 mx-auto mt-5" style={{ maxWidth: "740px" }}>
         <div className="row g-0">
           <div className="col-md-5">
-            <span className="cart-percentage-single cart-discount">
-              {discountPercentage(data)} %
-            </span>
+            {data.discountedPrice !== data.price ? (
+              <span className="cart-percentage-single cart-discount">
+                {discountPercentage(data)}%
+              </span>
+            ) : (
+              <span></span>
+            )}
             <img
               className="single-img "
               src={data.image?.url}
