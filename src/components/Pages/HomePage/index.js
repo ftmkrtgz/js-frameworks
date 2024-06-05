@@ -86,19 +86,19 @@ function Home() {
                     `${product.price} $`
                   )}
                 </div>
-                <div className="d-flex justify-content-around">
+                <div className="d-flex  justify-content-around">
                   <div>
                     <button
                       onClick={() => addToCart(product, findCartItem)}
-                      className="btn  btn-primary"
+                      className="btn  btn-primary "
                     >
-                      Add
+                      Add to Cart
                     </button>
                   </div>
                   <div>
                     <Link to={`/product/${product.id}`}>
-                      <button className="btn  btn-primary">
-                        View the Cart
+                      <button className="btn  btn-primary ms-1">
+                        View Product
                       </button>
                     </Link>
                   </div>
