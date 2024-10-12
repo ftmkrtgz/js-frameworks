@@ -22,6 +22,12 @@ All API functionality is managed by an existing application. This project only c
 - [Bootstrap](https://getbootstrap.com)
 - React
 
+## Project Links
+
+[Deployed website](https://buy-sell-ecom.netlify.app/)
+
+[Github repository](https://github.com/ftmkrtgz/js-frameworks)
+
 ## Getting Started
 
 ### Installing
@@ -29,7 +35,7 @@ All API functionality is managed by an existing application. This project only c
 1. Clone the repo:
 
 ```bash
-git https://github.com/ftmkrtgz/js-frameworks
+git clone https://github.com/ftmkrtgz/js-frameworks
 ```
 
 2. Install the dependencies
